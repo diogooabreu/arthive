@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: blue;
+  --secondary-color: black;
+  --button-primary: white;
+  --button-secondary: green;
+}
+
+body {
+  background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
